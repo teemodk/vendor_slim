@@ -86,6 +86,12 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     PhaseBeam
 
+# DSPManager
+PRODUCT_PACKAGES += \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
+
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     SlimCenter \
@@ -152,7 +158,7 @@ endif
 # KitKat SlimKat freeze code
 PRODUCT_VERSION_MAJOR = 4.4.4
 PRODUCT_VERSION_MINOR = build
-PRODUCT_VERSION_MAINTENANCE = 6.4
+PRODUCT_VERSION_MAINTENANCE = 8.6.1
 ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
