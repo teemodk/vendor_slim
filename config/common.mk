@@ -96,6 +96,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SlimCenter \
     SlimFileManager \
+    SlimLauncher \
     LatinIME \
     BluetoothExt \
     DashClock
@@ -158,7 +159,7 @@ endif
 # KitKat SlimKat freeze code
 PRODUCT_VERSION_MAJOR = 4.4.4
 PRODUCT_VERSION_MINOR = build
-PRODUCT_VERSION_MAINTENANCE = 8.6.1
+PRODUCT_VERSION_MAINTENANCE = 8.8
 ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
